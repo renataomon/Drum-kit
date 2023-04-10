@@ -11,6 +11,8 @@ Foundations Course
 
 This project for [Odin Project](https://www.theodinproject.com) in Foundations.
 
+https://www.youtube.com/watch?v=SBvn8FuylBg
+
 1. Skills Progress: 87% Complete.
 
 	I'm applying the knowledge to create a HTML/CSS page, based on:

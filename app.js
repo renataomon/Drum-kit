@@ -31,7 +31,6 @@
     }
   });
 
-
   const drumkit = document.querySelector('.drumkit');
   function playDrum(event) {
     if (event.target.classList.contains('pad')) {
@@ -45,5 +44,11 @@
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
+
+  setViewportHeight();
+  window.addEventListener('resize', () => {
+    setTimeout(setViewportHeight, 100);
+  });
+  
   drumkit.addEventListener('click', playDrum);
   drumkit.addEventListener('touchstart', playDrum);
