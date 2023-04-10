@@ -1,0 +1,30 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #282828;
+}
+
+.drumkit    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333%);
+    margin: 10px;
+    border-radius: 10px;
+    background: radial-gradient(#e18174, #d15746);
+}
+
+.pad img {
+    width: 150px;
+    pointer-events: none;
+}
